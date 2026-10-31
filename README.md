@@ -1,75 +1,172 @@
-# React + TypeScript + Vite
+# 🌐 Personal Portfolio — Santiago Fernandes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio!
 
-Currently, two official plugins are available:
+This project is a modern, responsive web application developed to showcase my skills, projects, experience, and journey as a Web Developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The main goal is to create a professional online presence where recruiters, developers, and potential collaborators can learn more about me and explore my work.
 
-## React Compiler
+## 🚀 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio is being developed from scratch using modern frontend technologies, with a focus on clean design, performance, responsiveness, and user experience.
 
-## Expanding the ESLint configuration
+It also serves as a practical learning project to strengthen my knowledge of React, TypeScript, and frontend development best practices.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🎯 Main Objectives
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Build a modern and professional personal website.
+- Showcase my programming projects and technical skills.
+- Create a fully responsive interface for different screen sizes.
+- Improve my knowledge of React and TypeScript.
+- Apply reusable components and clean code principles.
+- Learn and implement modern frontend development practices.
+- Deploy the portfolio and make it publicly accessible.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Technologies
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+| Technology | Purpose |
+|---|---|
+| React | Building reusable UI components |
+| TypeScript | Adding static typing to JavaScript |
+| Tailwind CSS | Styling and responsive design |
+| Vite | Development environment and build tool |
+| Git | Version control |
+| GitHub | Source code hosting and project management |
 
+## 📂 Project Structure
+
+The project follows a component-based architecture.
+
+A possible structure as development progresses:
+
+```text
+portfolio/
+├── public/
+│   └── assets/
+├── src/
+│   ├── components/
+│   │   ├── Hero.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Contact.tsx
+│   │   └── Footer.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+*Note: This structure represents the planned organization and may change during development.*
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✨ Planned Features
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 🏠 Hero Section
+An introduction featuring my name, professional interests, and quick access to my projects and contact information.
 
+### 👨‍💻 About Me
+A section describing my academic background, interests, professional goals, and development journey.
+
+### ⚡ Technical Skills
+A visual presentation of the programming languages, frameworks, and development tools I use.
+
+### 📁 Projects
+A collection of my academic and personal projects, including descriptions, technologies, and GitHub repository links.
+
+### 📬 Contact
+A dedicated section with links to my professional profiles and ways to get in touch.
+
+### 📱 Responsive Design
+An interface optimized for desktop, tablet, and mobile devices.
+
+## 💻 Getting Started
+
+To run this project locally, follow these steps.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 ```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd YOUR_REPOSITORY
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+## 📈 Development Status
+
+🚧 **Currently under development**
+
+The project is being built incrementally, with new components, features, and design improvements added throughout the development process.
+
+### Development Roadmap
+
+- [x] Initialize React and TypeScript project
+- [x] Configure Tailwind CSS
+- [x] Set up Git and GitHub repository
+- [x] Create initial Hero component
+- [ ] Implement navigation bar
+- [ ] Complete Hero section
+- [ ] Build About Me section
+- [ ] Create Skills section
+- [ ] Develop Projects showcase
+- [ ] Implement Contact section
+- [ ] Improve responsiveness
+- [ ] Add animations and interactions
+- [ ] Optimize performance and accessibility
+- [ ] Deploy portfolio
+
+## 🎓 Learning Goals
+
+Besides being a personal website, this project is an opportunity to improve my frontend development skills.
+
+Throughout development, I aim to gain more experience with:
+
+- React components, props, and hooks.
+- TypeScript types and interfaces.
+- Responsive layouts using Tailwind CSS.
+- Component organization and reusability.
+- Git workflows and version control.
+- Web accessibility and performance optimization.
+- Deployment and maintenance of web applications.
+
+## 👤 Author
+
+**Santiago Fernandes**
+
+Web Development Student | Aspiring Frontend Developer
+
+- GitHub: [@santiiago90](https://github.com/santiiago90)
+- Location: Portugal
+
+## 📄 License
+
+This project is intended for personal, educational, and portfolio purposes.
+
+---
+
+⭐ Developed with dedication and a passion for learning web development.

@@ -10,7 +10,7 @@ function About() {
           About Me
         </h2>
 
-        <div className="space-y-5 text-lg leading-relaxed text-gray-500">
+        <div className="space-y-5 text-lg leading-relaxed text-gray-300">
           <p>
             I'm Santiago, a Web, Mobile and Cloud Computing
             student at the University of Beira Interior,

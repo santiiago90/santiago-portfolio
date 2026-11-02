@@ -14,7 +14,7 @@ function ProjectCard({
   image,
 }: ProjectCardProps) {
   return (
-    <article className="group overflow-hidden rounded-xl border border-gray-700 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg">
+    <article className="group overflow-hidden rounded-xl border border-gray-300  transition-all duration-300 hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg">
       
       {image && (
         <img

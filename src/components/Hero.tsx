@@ -6,7 +6,7 @@ function Hero() {
       id="home"
       className="flex min-h-[80vh] flex-col justify-center px-6 md:px-12"
     >
-      <p className="mb-4 text-lg text-blue-700">
+      <p className="mb-4 text-lg text-blue-400">
         print ("Hello, I'm Santiago 👋") 
       </p>
 
@@ -14,7 +14,7 @@ function Hero() {
         Frontend / Full Stack aspiring Developer 
       </h1>
 
-      <p className="mb-8 max-w-2xl text-lg text-gray-500">
+      <p className="mb-8 max-w-2xl text-lg text-gray-300">
         Computer science student passionate about building modern web applications, 
         from intuitive user interfaces to scalable backend solutions.
       </p>
@@ -37,7 +37,7 @@ function Hero() {
           <img
             src={githubIcon}
             alt=""
-            className="h-6 w-6 object-contain"
+            className="h-6 w-6 object-contain brightness-0 invert"
           />
           GitHub
         </a>

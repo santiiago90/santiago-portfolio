@@ -8,8 +8,9 @@ function Navbar() {
   return (
     <nav className="px-6 py-5 md:px-12">
       <div className="flex items-center justify-between">
-        <a href="#home" className="text-2xl font-bold">
-          Santiago.
+        <a href="#home" className="text-xl font-bold">
+          Santiago Fernandes 
+          
         </a>
 
         {/* Menu para computador */}

@@ -19,7 +19,7 @@ function Contact() {
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href="mailto:santiagoadaofernandes@gmail.com"
-            className="rounded-lg bg-blue-600 px-6 py-3 text-white transition hover:bg-blue-700"
+            className="rounded-lg bg-blue-950 px-6 py-3 text-white transition hover:bg-blue-700"
           >
             Contact Me
           </a>

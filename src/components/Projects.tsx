@@ -8,8 +8,11 @@ function Projects() {
       className="px-6 py-20 md:px-12"
     >
       <div className="mx-auto max-w-5xl">
+        <p className="mb-2 font-mono text-sm tracking-wider text-blue-400">
+            {"// 02. PROJECTS"}
+        </p>
         <h2 className="mb-10 text-3xl font-bold md:text-4xl">
-          My Projects
+          Projects
         </h2>
 
         <div className="grid gap-6 md:grid-cols-2">

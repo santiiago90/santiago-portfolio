@@ -6,6 +6,9 @@ function Contact() {
       className="px-6 py-20 md:px-12"
     >
       <div className="mx-auto max-w-5xl text-center">
+        <p className="mb-2 font-mono text-sm tracking-wider text-blue-400">
+           {"// 04. CONTACT ME"}
+        </p>
         <h2 className="mb-6 text-3xl font-bold md:text-4xl">
           Get In Touch
         </h2>

@@ -6,6 +6,9 @@ function About() {
       className="px-6 py-20 md:px-12"
     >
       <div className="mx-auto max-w-5xl">
+        <p className="mb-2 font-mono text-sm tracking-wider text-blue-400">
+          {"// 01. ABOUT ME"}
+        </p>
         <h2 className="mb-8 text-3xl font-bold md:text-4xl">
           About Me
         </h2>

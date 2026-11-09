@@ -90,13 +90,13 @@ To run this project locally, follow these steps.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/santiiago90/santiago-portfolio.git
 ```
 
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd YOUR_REPOSITORY
+cd santiago-portfolio
 ```
 
 ### 3. Install Dependencies

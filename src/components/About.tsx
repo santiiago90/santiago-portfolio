@@ -17,7 +17,7 @@ function About() {
           <p>
             I'm Santiago, a Web, Mobile and Cloud Computing
             student at the University of Beira Interior,
-            Portugal.
+            Portugal. 
           </p>
 
           <p>
@@ -37,10 +37,11 @@ function About() {
         <div className="mt-10 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-gray-300 p-6">
             <h3 className="mb-2 text-xl font-semibold">
-              Education
+              Education (2024 - Currently)
             </h3>
             <p className="text-gray-500">
-              University of Beira Interior
+              Web, Mobile and Cloud Computing student at the University of Beira Interior
+
             </p>
           </div>
 

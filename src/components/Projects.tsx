@@ -23,6 +23,7 @@ function Projects() {
               description={project.description}
               technologies={project.technologies}
               githubUrl={project.githubUrl}
+              status={"status" in project ? project.status : undefined}
             />
           ))}
         </div>

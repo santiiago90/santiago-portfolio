@@ -22,7 +22,7 @@ function Contact() {
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href="mailto:santiagoadaofernandes@gmail.com"
-            className="rounded-lg bg-blue-950 px-6 py-3 text-white transition hover:bg-blue-700"
+            className="rounded-lg border border-gray-600 bg-blue-950 px-6 py-3 text-white transition hover:bg-blue-700"
           >
             Contact Me
           </a>
@@ -31,9 +31,18 @@ function Contact() {
             href="https://github.com/santiiago90"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg border border-gray-600 px-6 py-3 transition hover:border-blue-500"
+            className="rounded-lg border border-gray-600 px-6 py-3 hover:text-blue-500 transition-colors duration-300 hover:border-blue-500"
           >
             GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/santiago-fernandes-76456b3a4/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-lg border border-gray-600 px-6 py-3 hover:text-blue-500 transition-colors duration-300 hover:border-blue-500 "
+          >
+            LinkedIn
           </a>
         </div>
       </div>

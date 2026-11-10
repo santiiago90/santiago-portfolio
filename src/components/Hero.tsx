@@ -1,6 +1,7 @@
 import GitStatus from "./GitStatus";
 import { useEffect, useState } from "react";
 import githubIcon from "../assets/github.png";
+import FloatingTech  from "./FloatingTech";;
 
 const terminalText = 'print("Hello, I\'m Santiago 👋")';
 
@@ -27,10 +28,15 @@ function Hero() {
   }, []);
 
   return (
+    
     <section
       id="home"
-      className="flex min-h-[80vh] flex-col justify-center px-6 md:px-12"
+      className="grid min-h-[80vh] grid-cols-1 items-center gap-12 px-6 md:px-12 lg:grid-cols-2"
+      
     >
+
+    <div className="min-w-0">
+      
       {/* Texto animado */}
       <p className="mb-4 min-h-7 font-mono text-lg text-blue-400">
         {displayedText}
@@ -40,8 +46,8 @@ function Hero() {
         />
       </p>
 
-      <h1 className="mb-6 text-4xl font-bold md:text-6xl">
-        Frontend / Full Stack aspiring Developer
+      <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl">
+        Aspiring Frontend / Full Stack Developer
       </h1>
 
       <p className="mb-8 max-w-2xl text-lg text-gray-300">
@@ -76,6 +82,13 @@ function Hero() {
       <div className="mt-10">
         <GitStatus />
       </div>
+    
+    </div>
+
+    <div className="hidden lg:block">
+      <FloatingTech />
+    </div>
+
     </section>
   );
 }

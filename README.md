@@ -1,172 +1,261 @@
-# 🌐 Personal Portfolio — Santiago Fernandes
+# Santiago Fernandes — Developer Portfolio
 
-Welcome to my personal portfolio!
+My personal developer portfolio, built with **React, TypeScript, Vite and Tailwind CSS**.
 
-This project is a modern, responsive web application developed to showcase my skills, projects, experience, and journey as a Web Developer.
+This website showcases my software development projects, technical skills, academic background and professional interests.
 
-The main goal is to create a professional online presence where recruiters, developers, and potential collaborators can learn more about me and explore my work.
+Designed with a minimalist dark-blue interface, the portfolio focuses on simplicity, responsiveness and a consistent user experience.
 
-## 🚀 About the Project
+## Portfolio Preview
 
-This portfolio is being developed from scratch using modern frontend technologies, with a focus on clean design, performance, responsiveness, and user experience.
+![Santiago Fernandes Developer Portfolio](public/screenshots/portfolio-preview.png)
 
-It also serves as a practical learning project to strengthen my knowledge of React, TypeScript, and frontend development best practices.
+**Live Website:** [santiagofernandes.dev](https://santiagofernandes.dev)
 
-### 🎯 Main Objectives
+---
 
-- Build a modern and professional personal website.
-- Showcase my programming projects and technical skills.
-- Create a fully responsive interface for different screen sizes.
-- Improve my knowledge of React and TypeScript.
-- Apply reusable components and clean code principles.
-- Learn and implement modern frontend development practices.
-- Deploy the portfolio and make it publicly accessible.
-
-## 🛠️ Technologies
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
-| React | Building reusable UI components |
-| TypeScript | Adding static typing to JavaScript |
-| Tailwind CSS | Styling and responsive design |
-| Vite | Development environment and build tool |
-| Git | Version control |
-| GitHub | Source code hosting and project management |
+| React | Component-based user interface |
+| TypeScript | Type-safe application development |
+| Vite | Development server and production builds |
+| Tailwind CSS | Responsive styling and UI design |
+| Git & GitHub | Version control and source code management |
+| Cloudflare Pages | Hosting and automated deployment |
 
-## 📂 Project Structure
+## Features
 
-The project follows a component-based architecture.
+### Responsive Design
 
-A possible structure as development progresses:
+- Responsive layout for desktop and mobile devices.
+- Mobile navigation with an animated hamburger menu.
+- Consistent spacing, typography and component styling.
+- Minimalist dark-blue visual identity.
+
+### Hero Section
+
+- Personal introduction and developer profile.
+- Interactive technology-themed visual elements.
+- Navigation to featured projects.
+- Direct access to GitHub.
+- Terminal-inspired availability status.
+
+### About Me
+
+- Personal and academic background.
+- Introduction to my development journey.
+- Professional interests and career ambitions.
+
+### Projects
+
+- Dedicated project showcase.
+- Reusable React components.
+- Project screenshots and descriptions.
+- Technologies used in each project.
+- Links to GitHub repositories.
+- Development status indicators for ongoing projects.
+
+### Skills
+
+- Overview of programming languages, frameworks and tools.
+- Technology logos for visual identification.
+- Responsive organization of technical skills.
+
+### Contact
+
+- Contact information and professional profiles.
+- Email, GitHub and LinkedIn links.
+- Dedicated icons and interactive elements.
+
+### SEO and Branding
+
+- Custom favicon.
+- HTML metadata for search engines.
+- Page title and description.
+- Consistent personal branding.
+
+## Featured Projects
+
+The portfolio highlights projects developed during my academic journey and independent learning.
+
+### Task Manager API
+
+A task management application developed using Node.js and Express, with CRUD operations and task organization features.
+
+### Aromatic Herbs Cultivation Management
+
+A web application for managing aromatic herb cultivation, including users, cultivation plans, batches, tasks, environmental measurements and alerts.
+
+### FinTrack
+
+A personal finance management project focused on expense tracking, financial organization and full-stack development.
+
+### Numerical System
+
+An academic project exploring numerical systems and programming concepts.
+
+Additional details and source code are available through the project cards on the website.
+
+## Project Structure
+
+The application follows a component-based React architecture.
 
 ```text
-portfolio/
+santiago-portfolio/
 ├── public/
-│   └── assets/
+│   ├── favicon.svg
+│   └── screenshots/
+│       └── portfolio-preview.png
 ├── src/
+│   ├── assets/
 │   ├── components/
-│   │   ├── Hero.tsx
-│   │   ├── Navbar.tsx
-│   │   ├── About.tsx
-│   │   ├── Skills.tsx
-│   │   ├── Projects.tsx
-│   │   ├── Contact.tsx
-│   │   └── Footer.tsx
+│   ├── data/
 │   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css
+│   ├── App.css
+│   └── main.tsx
+├── index.html
 ├── package.json
-├── tsconfig.json
+├── package-lock.json
 ├── vite.config.ts
 └── README.md
 ```
 
-*Note: This structure represents the planned organization and may change during development.*
+The `components` directory contains reusable interface components, while `data` stores structured information used throughout the portfolio.
 
-## ✨ Planned Features
+## Getting Started
 
-### 🏠 Hero Section
-An introduction featuring my name, professional interests, and quick access to my projects and contact information.
+Follow these instructions to run the project locally.
 
-### 👨‍💻 About Me
-A section describing my academic background, interests, professional goals, and development journey.
+### Prerequisites
 
-### ⚡ Technical Skills
-A visual presentation of the programming languages, frameworks, and development tools I use.
+Make sure you have installed:
 
-### 📁 Projects
-A collection of my academic and personal projects, including descriptions, technologies, and GitHub repository links.
+- Node.js
+- npm
+- Git
 
-### 📬 Contact
-A dedicated section with links to my professional profiles and ways to get in touch.
-
-### 📱 Responsive Design
-An interface optimized for desktop, tablet, and mobile devices.
-
-## 💻 Getting Started
-
-To run this project locally, follow these steps.
-
-### 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/santiiago90/santiago-portfolio.git
 ```
 
-### 2. Navigate to the Project Directory
+### 2. Navigate to the project directory
 
 ```bash
 cd santiago-portfolio
 ```
 
-### 3. Install Dependencies
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start the Development Server
+### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-Open the local URL displayed in your terminal, usually:
+Open the local URL displayed in the terminal, usually:
 
-```text
-http://localhost:5173
+`http://localhost:5173`
+
+### 5. Create a production build
+
+```bash
+npm run build
 ```
 
-## 📈 Development Status
+The optimized application will be generated in the `dist/` directory.
 
-🚧 **Currently under development**
+## Development Process
 
-The project is being built incrementally, with new components, features, and design improvements added throughout the development process.
+The portfolio was developed iteratively across five sprints.
 
-### Development Roadmap
+| Sprint | Main objectives |
+|---|---|
+| Sprint 1 | Project initialization, development environment and initial React components |
+| Sprint 2 | Dark-blue visual theme, project data, skills and interface consistency |
+| Sprint 3 | Mobile navigation, responsive improvements and component interactions |
+| Sprint 4 | Project cards, interactive elements and UI refinements |
+| Sprint 5 | Portfolio redesign, personal content improvements, CV integration and final polishing |
 
-- [x] Initialize React and TypeScript project
-- [x] Configure Tailwind CSS
-- [x] Set up Git and GitHub repository
-- [x] Create initial Hero component
-- [ ] Implement navigation bar
-- [ ] Complete Hero section
-- [ ] Build About Me section
-- [ ] Create Skills section
-- [ ] Develop Projects showcase
-- [ ] Implement Contact section
-- [ ] Improve responsiveness
-- [ ] Add animations and interactions
-- [ ] Optimize performance and accessibility
-- [ ] Deploy portfolio
+This iterative approach helped improve code organization, component reusability and user experience throughout development.
 
-## 🎓 Learning Goals
+## Deployment
 
-Besides being a personal website, this project is an opportunity to improve my frontend development skills.
+The website is hosted on **Cloudflare Pages**, connected directly to this GitHub repository.
 
-Throughout development, I aim to gain more experience with:
+### Production Configuration
 
-- React components, props, and hooks.
-- TypeScript types and interfaces.
-- Responsive layouts using Tailwind CSS.
-- Component organization and reusability.
-- Git workflows and version control.
-- Web accessibility and performance optimization.
-- Deployment and maintenance of web applications.
+| Setting | Value |
+|---|---|
+| Hosting provider | Cloudflare Pages |
+| Production branch | `main` |
+| Framework preset | React (Vite) |
+| Build command | `npm run build` |
+| Build output directory | `dist` |
+| Custom domain | `santiagofernandes.dev` |
+| HTTPS / SSL | Enabled |
 
-## 👤 Author
+Updates pushed to the production branch trigger automatic builds and deployments through Cloudflare Pages.
 
-**Santiago Fernandes**
+The website uses HTTPS with SSL/TLS managed by Cloudflare.
 
-Web Development Student | Aspiring Frontend Developer
+## Version Control
 
-- GitHub: [@santiiago90](https://github.com/santiiago90)
-- Location: Portugal
+Git and GitHub were used throughout development.
 
-## 📄 License
+The project followed a branch-based workflow:
 
-This project is intended for personal, educational, and portfolio purposes.
+- `main` — Production-ready code.
+- `dev` — Development and testing.
+- Pull requests — Review and integration of changes.
+- Squash and merge — Consolidation of development commits into the production branch.
+
+## Future Improvements
+
+The portfolio will continue evolving alongside my technical experience.
+
+Potential improvements include:
+
+- Adding new projects and case studies.
+- Improving accessibility and performance.
+- Expanding project documentation.
+- Updating technical skills and professional experience.
+- Further SEO optimization.
+
+## About Me
+
+I'm Santiago Fernandes, a Computer Science student at the **University of Beira Interior (UBI)**, Portugal, pursuing a degree in Web, Mobile and Cloud Computing.
+
+I'm interested in frontend and full-stack development, particularly in building modern, responsive and user-friendly web applications.
+
+My goal is to continue developing my technical skills through practical projects and professional experience.
+
+## Contact
+
+- **Website:** [santiagofernandes.dev](https://santiagofernandes.dev)
+- **GitHub:** [github.com/santiiago90](https://github.com/santiiago90)
+- **LinkedIn:** Available through my portfolio.
+- **Email:** Available through my portfolio.
 
 ---
 
-⭐ Developed with dedication and a passion for learning web development.
+## Copyright
+
+**© 2026 Santiago Fernandes. All rights reserved.**
+
+This portfolio was designed and developed by Santiago Fernandes.
+
+Unauthorized copying, redistribution, modification or commercial use of the original source code and design is prohibited without prior written permission from the copyright holder.
+
+Third-party libraries, frameworks, assets and other dependencies remain subject to their respective licenses and copyright terms.
+
+---
+
+**Designed and developed by Santiago Fernandes.**

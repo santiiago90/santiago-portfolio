@@ -1,10 +1,11 @@
+
 type ProjectCardProps = {
   title: string;
   description: string;
   technologies: string[];
   githubUrl: string;
   image?: string;
-  status?:"in-progress";
+  status?: "in-progress";
 };
 
 function ProjectCard({
@@ -16,8 +17,8 @@ function ProjectCard({
   status,
 }: ProjectCardProps) {
   return (
-    <article className="group overflow-hidden rounded-xl border border-gray-300  transition-all duration-300 hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg">
-      
+    <article className="group flex h-full flex-col overflow-hidden rounded-xl border border-gray-300 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg">
+
       {image && (
         <img
           src={image}
@@ -26,7 +27,8 @@ function ProjectCard({
         />
       )}
 
-      <div className="p-6">
+      <div className="flex flex-1 flex-col p-6">
+
         <div className="mb-3 flex items-center gap-3">
           <h3 className="text-2xl font-bold">
             {title}
@@ -36,8 +38,9 @@ function ProjectCard({
             <span className="shrink-0 rounded-full border border-amber-700/40 bg-amber-700/10 px-3 py-1 text-xs font-medium text-amber-500">
               In Progress
             </span>
-           )}
+          )}
         </div>
+
         <p className="mb-5 text-gray-400">
           {description}
         </p>
@@ -58,11 +61,12 @@ function ProjectCard({
             href={githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium text-blue-400 transition hover:text-blue-300"
+            className="mt-auto self-start font-medium text-blue-400 transition hover:text-blue-300"
           >
             View on GitHub →
           </a>
         )}
+
       </div>
     </article>
   );

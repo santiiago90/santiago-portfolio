@@ -2,6 +2,7 @@ import GitStatus from "./GitStatus";
 import { useEffect, useState } from "react";
 import githubIcon from "../assets/github.png";
 import FloatingTech  from "./FloatingTech";;
+import {ArrowDown,} from "lucide-react";
 
 const terminalText = 'print("Hello, I\'m Santiago 👋")';
 
@@ -59,8 +60,9 @@ function Hero() {
       <div className="flex flex-wrap gap-4">
         <a
           href="#projects"
-          className="rounded-lg bg-blue-950 px-6 py-3 text-white transition hover:bg-blue-700"
+          className=" inline-flex items-center justify-center gap-3 rounded-lg bg-blue-950 px-6 py-3 text-white transition hover:bg-blue-700"
         >
+          <ArrowDown size={15} />
           View Projects
         </a>
 
@@ -68,7 +70,7 @@ function Hero() {
           href="https://github.com/santiiago90"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-3 rounded-lg border border-gray-400 px-6 py-3 transition hover:bg-gray-100 hover:text-gray-900"
+          className="flex items-center gap-3 rounded-lg border border-gray-400 px-6 py-3 transition hover:bg-blue-900 hover:text-white hover:border-blue-500"
         >
           <img
             src={githubIcon}

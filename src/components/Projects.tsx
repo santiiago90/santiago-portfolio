@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import { projects } from "../data/projects";
 
+
 function Projects() {
   return (
     <section
@@ -24,6 +25,7 @@ function Projects() {
               technologies={project.technologies}
               githubUrl={project.githubUrl}
               status={"status" in project ? project.status : undefined}
+              image={"image" in project ? project.image : undefined}
             />
           ))}
         </div>

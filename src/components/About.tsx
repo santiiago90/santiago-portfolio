@@ -234,7 +234,7 @@ function About() {
 
                 {/* View CV */}
                 <a
-                  href="/Santiago_Adao_Fernandes_CV_2027.pdf"
+                  href="/Santiago_Fernandes_CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center justify-center
